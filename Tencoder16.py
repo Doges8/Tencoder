@@ -5,7 +5,10 @@ root = Tk()
 
 
 root.title("Tencoder16")
-
+try:
+    root.iconbitmap("icon.ico")
+except:
+    print("Error")
 
 
 
